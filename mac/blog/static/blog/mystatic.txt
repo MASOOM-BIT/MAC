@@ -1,0 +1,7 @@
+static file for blog app
+
+Welcome to our blog!
+
+Here, we share the latest updates, tips, and insights on various topics. Stay tuned for more interesting content and feel free to explore our previous posts.
+
+Happy reading!
