@@ -1,9 +1,9 @@
-from math import ceil
 from django.shortcuts import render
+from .models import Product
+from math import ceil
 
 # Create your views here.
 from django.http import HttpResponse
-from .models import Product
 
 def index(request):
     # products = Product.objects.all()
@@ -27,7 +27,7 @@ def index(request):
     return render(request, 'shop/index.html', params)
 
 def about(request):
-    return render(request,"shop/about.html")
+    return render(request, 'shop/about.html')
 
 def contact(request):
     return HttpResponse("We are at contact")
